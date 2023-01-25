@@ -11,11 +11,6 @@ namespace ToyRobotCodingChallenge.Robot
         public Direction Direction { get; private set; }
         public Position Position { get; private set; }
 
-        /// <summary>
-        /// Updates the toy robotos location as well as direction
-        /// </summary>
-        /// <param name="position"></param>
-        /// <param name="direction"></param>
         public void Place(string[] values)
         {
             var textInfo = new CultureInfo("en-US", false).TextInfo;

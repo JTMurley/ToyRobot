@@ -2,6 +2,9 @@
 
 namespace ToyRobotCodingChallenge.InputParser
 {
+    /// <summary>
+    /// Handles parsing inputs via the TXT file provided
+    /// </summary>
     public interface IInputParser
     {
         /// <summary>

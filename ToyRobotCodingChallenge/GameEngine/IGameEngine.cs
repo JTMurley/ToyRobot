@@ -3,7 +3,7 @@
 namespace ToyRobotCodingChallenge.GameEngine
 {
     /// <summary>
-    /// The game engine handles the calling of all operations in relatio to the game
+    /// The game engine handles the calling of all operations in relation to the game
     /// </summary>
     public interface IGameEngine
     {

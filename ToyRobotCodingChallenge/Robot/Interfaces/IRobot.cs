@@ -1,7 +1,7 @@
 ﻿namespace ToyRobotCodingChallenge.Robot.Interfaces
 {
     /// <summary>
-    ///
+    /// Handles all logic in relation to the robot and its positions as well as actions
     /// </summary>
     public interface IRobot
     {
@@ -24,7 +24,7 @@
         string ReportLocation();
 
         /// <summary>
-        ///
+        /// Rotates the robot in the desired direction based off of the direction passed in
         /// </summary>
         /// <param name="direction"></param>
         void Rotate(Rotation direction);
